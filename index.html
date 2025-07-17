@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Butterfly Bistro | Delicious Food, Cozy Vibes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="sticky-header">
+      <div id="logoDiv">
+        <img src="Images/butterfly.jpg" alt="Butterfly Bistro logo"/>
+        <p class="tagline">Delicious Food, Cozy Vibes</p>
+      </div>
+      <div class="searchArea">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search for dishes..."
+        />
+        <i class="fa-solid fa-magnifying-glass" id="srcIcon"></i>
+      </div>
+    </nav>
+    <section class="center" id="hero-section">
+      <h1 id="title">Butterfly Bistro</h1>
+      <div class="about-section">
+        <div class="about-text">
+          <h3>About Us</h3>
+          <p>
+            Welcome to Butterfly Bistro, your cozy escape into a world of
+            flavor, comfort, and good vibes. Nestled in the heart of the city,
+            we’re more than just a place to eat—we’re a place to relax, connect,
+            and indulge. That’s why our menu is filled with a delightful mix of
+            classic favorites and creative twists, crafted with love, passion,
+            and the freshest ingredients.<br />With warm lighting, cozy seating,
+            and a welcoming ambiance, we aim to make every visit feel like home.
+            So sit back, savor the flavors, and let us take care of the
+            rest—because at Butterfly Bistro, every dish tells a story.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="Images/Yfood.jpg" class="Yfood" width="400px" alt="Yellow food image"/>
+          <img src="Images/Lfood.jpg" class="Lfood" alt="Red food image"/>
+        </div>
+      </div>
+      <ul id="menuList">
+        <li class="category">🥗 Starters</li>
+        <li>French Fries</li>
+        <li>Chilli Cheese Toast</li>
+        <li>Chilli Cheese Garlic Toast</li>
+        <li>Sandwich</li>
+        <li>Salads</li>
+
+        <li class="category">🍝 Pasta</li>
+        <li>Pasta Spicy Tomato</li>
+        <li>Pasta in Twin Sauce</li>
+
+        <li class="category">🍕 Pizza</li>
+        <li>Plain Cheese Pizza</li>
+        <li>Capsicum, Onion Pizza</li>
+        <li>Tomato, Onion Pizza</li>
+        <li>Jain Spl. Pizza</li>
+
+        <li class="category">🌯 Wraps & Rolls</li>
+        <li>Lasanana Roll</li>
+        <li>Paneer Salsa Wrap</li>
+        <li>Paneer Roll</li>
+
+        <li class="category">🍛 Main Course</li>
+        <li>Lemon & Coriander</li>
+        <li>Chilly Paneer Dry</li>
+        <li>Manchurian Gravy</li>
+        <li>Veg Hakka Noodles</li>
+        <li>Dahi Bhalla</li>
+        <li>Shahi Paneer</li>
+
+        <li class="category">🍽️ South Indian</li>
+        <li>Dosa (Butter)</li>
+
+        <li class="category">🍔 Burgers & Sandwiches</li>
+        <li>Veg Burger</li>
+        <li>Grilled Sandwich</li>
+
+        <li class="category">🍟 Sides</li>
+        <li>Loaded Fries</li>
+      </ul>
+    </section>
+    <section class="featured fade-in">
+      <h2>🌟 Featured Dishes</h2>
+      <div class="featured-container">
+        <div class="dish-card">
+          <img src="Images/featured1.jpeg" alt="Cheesy Pizza" />
+          <h4>Cheesy Pizza</h4>
+          <p>₹299</p>
+          <div class="popup-desc">
+            Loaded with mozzarella, our signature pizza sauce, and a crisp
+            golden crust. A classic!
+          </div>
+        </div>
+        <div class="dish-card">
+          <img src="Images/featured2.jpeg" alt="Creamy Pasta" />
+          <h4>Creamy Pasta</h4>
+          <p>₹249</p>
+          <div class="popup-desc">
+            Silky pasta tossed in a rich creamy sauce with herbs and veggies,
+            served hot!
+          </div>
+        </div>
+        <div class="dish-card">
+          <img src="Images/featured3.jpeg" alt="Loaded Fries" />
+          <h4>Loaded Fries</h4>
+          <p>₹199</p>
+          <div class="popup-desc">
+            Crispy fries topped with melted cheese, spicy jalapeños, and zesty
+            sauces.
+          </div>
+        </div>
+        <div class="dish-card">
+          <img src="Images/featured4.jpeg" alt="Veg Burger" />
+          <h4>Veg Burger</h4>
+          <p>₹179</p>
+          <div class="popup-desc">
+            Juicy veggie patty with fresh lettuce, tomato, and mayo in a toasted
+            bun.
+          </div>
+        </div>
+        <div class="dish-card">
+          <img src="Images/featured5.jpeg" alt="Grilled Sandwich" />
+          <h4>Grilled Sandwich</h4>
+          <p>₹159</p>
+          <div class="popup-desc">
+            Toasted to perfection with gooey cheese and a medley of seasoned
+            vegetables.
+          </div>
+        </div>
+        <div class="dish-card">
+          <img src="Images/featured6.jpeg" alt="Paneer Roll" />
+          <h4>Paneer Roll</h4>
+          <p>₹189</p>
+          <div class="popup-desc">
+            Spicy grilled paneer in a soft paratha, loaded with flavors and
+            sauces.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials fade-in">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial active">
+          <p>🌟 "The cheesy pizza was heavenly! Will definitely come back!”</p>
+          <h4>– Ayesha</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            "I love the vibes here! Super friendly staff, quick service, and
+            every dish tastes homemade. The loaded fries and mocktails are my
+            go-to. Highly recommended!"
+          </p>
+          <h4>– Rohan</h4>
+        </div>
+        <div class="testimonial">
+          <p>“Best pasta I've ever had. Highly recommended!”</p>
+          <h4>– Meena</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            🌟 "Butterfly Bistro is my comfort spot. The ambiance is cozy, and
+            the food is consistently amazing. Their creamy pasta is to die
+            for—always hits the right spot!"
+          </p>
+          <h4>– Riya</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            “Super cozy, super tasty! The staff is sweet, and everything just
+            feels warm and welcoming.”
+          </p>
+          <h4>– Arjun</h4>
+        </div>
+      </div>
+    </section>
+    <section class="gallery fade-in">
+      <h2>Food Gallery</h2>
+      <div class="gallery-grid">
+        <img
+          src="Images/food1.jpeg"
+          alt="Cheesy Pizza"
+          class="lightbox-image"
+        />
+        <img
+          src="Images/food2.jpeg"
+          alt="Creamy Pasta"
+          class="lightbox-image"
+        />
+        <img
+          src="Images/food3.jpeg"
+          alt="Loaded Fries"
+          class="lightbox-image"
+        />
+        <img src="Images/food4.jpeg" alt="Veg Burger" class="lightbox-image" />
+        <img
+          src="Images/food5.jpeg"
+          alt="Grilled Sandwich"
+          class="lightbox-image"
+        />
+        <img src="Images/food6.jpeg" alt="Paneer Roll" class="lightbox-image" />
+      </div>
+    </section>
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+      <span class="lightbox-nav prev">&#10094;</span>
+      <span class="lightbox-nav next">&#10095;</span>
+    </div>
+    <footer class="hide-footer">
+      <p>📍 Street 123, Food City | ☎ 9876543210</p>
+      <p>
+        Follow us: <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+      </p>
+    </footer>
+    <script src="logic.js"></script>
+  </body>
+</html>
