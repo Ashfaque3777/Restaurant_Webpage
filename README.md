@@ -52,7 +52,7 @@ A visually appealing and responsive restaurant webpage showcasing menu, gallery,
 
 ## Live Demo
 
-You can check out the live demo of the project [here](https://restaurant-menu-search-197786.netlify.app).
+You can check out the live demo of the project [here](https://restaurant-webpage-197786.netlify.app/).
 
 ## Future Enhancements
 
